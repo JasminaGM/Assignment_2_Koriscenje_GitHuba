@@ -17,3 +17,5 @@ while (y<36):
 print ()
 print ("Kraj programa!")
 print ()
+print ("Assignment 2 - Korišćenje GitHuba")
+print ()

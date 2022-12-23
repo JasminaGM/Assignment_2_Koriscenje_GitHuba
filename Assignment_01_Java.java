@@ -23,6 +23,7 @@ public class Assignment_01_Java
         System.out.println();
         System.out.println("Kraj programa!"); 
         System.out.println();
-
+        System.out.println("Assignment 2 - Korišćenje GitHuba"); 
+        System.out.println();
     }   
 }
