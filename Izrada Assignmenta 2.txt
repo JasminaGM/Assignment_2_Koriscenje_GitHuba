@@ -1,0 +1,124 @@
+Microsoft Windows [Version 10.0.19045.2364]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\PC2>git -v
+git version 2.38.1.windows.1
+
+C:\Users\PC2>cd Assignment
+
+C:\Users\PC2\Assignment>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3653-2152
+
+ Directory of C:\Users\PC2\Assignment
+
+23.12.2022.  02.17    <DIR>          .
+23.12.2022.  02.17    <DIR>          ..
+23.12.2022.  05.23    <DIR>          Assignment 1
+23.12.2022.  06.15    <DIR>          Assignment 2
+               0 File(s)              0 bytes
+               4 Dir(s)  10.692.870.144 bytes free
+
+C:\Users\PC2\Assignment>cd Assignment 2
+
+C:\Users\PC2\Assignment\Assignment 2>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\PC2\Assignment\Assignment 2>git init
+Initialized empty Git repository in C:/Users/PC2/Assignment/Assignment 2/.git/
+
+C:\Users\PC2\Assignment\Assignment 2>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignment_01_Java.java
+        Assignment_01_Java.txt
+        Assignment_01_Python.py
+        Assignment_01_Python.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\PC2\Assignment\Assignment 2>git add Assignment_01_Java.java
+
+C:\Users\PC2\Assignment\Assignment 2>git add Assignment_01_Java.txt
+
+C:\Users\PC2\Assignment\Assignment 2>git add Assignment_01_Python.py
+
+C:\Users\PC2\Assignment\Assignment 2>git add Assignment_01_Python.txt
+
+C:\Users\PC2\Assignment\Assignment 2>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Assignment_01_Java.java
+        new file:   Assignment_01_Java.txt
+        new file:   Assignment_01_Python.py
+        new file:   Assignment_01_Python.txt
+
+
+C:\Users\PC2\Assignment\Assignment 2>git commit -m "Initial Commit"
+[master (root-commit) 63026c9] Initial Commit
+ 4 files changed, 94 insertions(+)
+ create mode 100644 Assignment_01_Java.java
+ create mode 100644 Assignment_01_Java.txt
+ create mode 100644 Assignment_01_Python.py
+ create mode 100644 Assignment_01_Python.txt
+
+C:\Users\PC2\Assignment\Assignment 2>git remote add origin https://github.com/JasminaGM/Assignment_2_Koriscenje_GitHuba.git
+
+C:\Users\PC2\Assignment\Assignment 2>git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 689 bytes | 229.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/JasminaGM/Assignment_2_Koriscenje_GitHuba.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\PC2\Assignment\Assignment 2>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Assignment_01_Java.java
+        modified:   Assignment_01_Java.txt
+        modified:   Assignment_01_Python.py
+        modified:   Assignment_01_Python.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\PC2\Assignment\Assignment 2>git add Assignment_01_Java.java
+
+C:\Users\PC2\Assignment\Assignment 2>git add Assignment_01_Java.txt
+
+C:\Users\PC2\Assignment\Assignment 2>git add Assignment_01_Python.py
+
+C:\Users\PC2\Assignment\Assignment 2>git add Assignment_01_Python.txt
+
+C:\Users\PC2\Assignment\Assignment 2>git commit -m "Verzija 1.1"
+[master c5b2181] Verzija 1.1
+ 4 files changed, 8 insertions(+), 2 deletions(-)
+
+C:\Users\PC2\Assignment\Assignment 2>git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 475 bytes | 237.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/JasminaGM/Assignment_2_Koriscenje_GitHuba.git
+   63026c9..c5b2181  master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\PC2\Assignment\Assignment 2>
